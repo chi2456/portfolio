@@ -8,8 +8,8 @@ html {
       sans-serif;
 }
 body {
-    background-color: white;
-    color: black;
+    background-color:#f4f4f4;
+    color:#333333;
     font-size: 16px;
     padding: 2rem;
 }
@@ -20,7 +20,8 @@ h1 {
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 /*li {
