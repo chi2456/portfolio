@@ -1,33 +1,68 @@
 html {
     font-family:
-      "Helvetica Neue",
-      Arial,
-      'Hiragino Kaku Gothic ProN',
-      'Hiragino Sans',
-      Meiryo,
-      sans-serif;
+        "Helvetica Neue",
+        Arial,
+        'Hiragino Kaku Gothic ProN',
+        'Hiragino Sans',
+        Meiryo,
+        sans-serif;
 }
+
 body {
-    background-color:#f4f4f4;
-    color:#333333;
+    background-color: #f4f4f4;
+    color: #333333;
     font-size: 16px;
     padding: 2rem;
 }
 
 h1 {
     font-size: 1rem;
+    font-family: 'Pacifico', cursive;;
     margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    /* 下に薄い横線 */
+    padding-bottom: 8px;
+    /* 文字と線の間の余白 */
+    margin-bottom: 20px;
+    /* 線と次のコンテンツとの間の余白 */
+
 }
 
-h2{
+nav {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #0077cc;
+  }
+  
+
+p {
+    margin: 1rem;
+    bottom: 1rem;
+}
+
+h2 {
     font-size: 1.3rem;
     font-weight: bold;
+    margin: 1rem;
+    bottom: 1rem;
 }
 
 /*li {
     list-style-type: number;
 }*/
-li{
+li {
     font-size: 1rem;
     list-style-type: disc;
+    margin: 1rem;
+    bottom: 1rem;
 }
