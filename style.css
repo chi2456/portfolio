@@ -1,68 +1,79 @@
-html {
-    font-family:
-        "Helvetica Neue",
-        Arial,
-        'Hiragino Kaku Gothic ProN',
-        'Hiragino Sans',
-        Meiryo,
-        sans-serif;
+\html {
+    font-family: "Helvetica Neue", Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333333;
+    background-color: #679751;
+    color: #f5f3f3;
     font-size: 16px;
     padding: 2rem;
+    max-width: 800px; /* 横幅の最大値を指定 */
+    margin: 0 auto;   /* 中央寄せ */
 }
 
 h1 {
     font-size: 1rem;
-    font-family: 'Pacifico', cursive;;
+    font-family: 'Pacifico', cursive;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
-    /* 下に薄い横線 */
-    padding-bottom: 8px;
-    /* 文字と線の間の余白 */
-    margin-bottom: 20px;
-    /* 線と次のコンテンツとの間の余白 */
+    border-bottom: 1px solid #ccc; /* 下に薄い横線 */
+    padding-bottom: 8px; /* 文字と線の間の余白 */
+    margin-bottom: 20px; /* 線と次のコンテンツとの間の余白 */
+}
 
+/* h2内のリンクが見えるように修正 */
+h2 a {
+    color: inherit; /* h2の文字色を引き継ぐ */
+    text-decoration: none; /* 下線を消す */
+}
+
+h2 a:hover {
+    color: #0077cc; /* ホバー時に色変更 */
 }
 
 nav {
     margin-bottom: 2rem;
     text-align: center;
-  }
-  
-  nav a {
+}
+
+nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: #333;
     font-weight: bold;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     color: #0077cc;
-  }
-  
+}
 
 p {
     margin: 1rem;
     bottom: 1rem;
+    line-height: 2.5; /* 行間を広げる */
 }
 
 h2 {
     font-size: 1.3rem;
     font-weight: bold;
-    margin: 1rem;
+    margin: 3rem 1rem 1rem 1rem; /* 上に2remの余白を追加 */
     bottom: 1rem;
 }
 
-/*li {
-    list-style-type: number;
-}*/
+/* リストのスタイル */
 li {
     font-size: 1rem;
     list-style-type: disc;
     margin: 1rem;
     bottom: 1rem;
+    line-height: 2.5; /* 行間を広げる */
+}
+
+/* 全てのリンクのスタイル */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077cc; /* ホバー時に色変更 */
 }
